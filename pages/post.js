@@ -15,10 +15,10 @@ class Post extends Component {
 
     render() {
 
-        const { router } = this.props;
+        // const { router } = this.props;
 
         return (
-            <Layout title={router.query.title}>
+            <Layout title="sdfsdf">
                 <p>Cupidatat reprehenderit qui cillum cillum laborum esse aute est ullamco ipsum ea.
                 Elit aliquip sunt mollit qui ad ullamco ea mollit tempor cillum anim nostrud exercitation
                 officia. Pariatur et aliquip officia non duis ipsum reprehenderit qui eu irure.</p>

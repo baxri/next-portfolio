@@ -8,13 +8,13 @@ export default class Blog extends Component {
             <Layout title="My Blog">
                 <ul>
                     <li>
-                        <Link as="post-react" href="/post?title=React"><a>React post</a></Link>
+                        <Link as="post/react" href="/post?title=React"><a>React post</a></Link>
                     </li>
                     <li>
-                        <Link as="post-angular" href="/post?title=Angular"><a>Angular</a></Link>
+                        <Link as="post/angular" href="/post?title=Angular"><a>Angular</a></Link>
                     </li>
                     <li>
-                        <Link as="post-vue" href="/post?title=Vue"><a>Vue</a></Link>
+                        <Link as="post/vue" href="/post?title=Vue"><a>Vue</a></Link>
                     </li>
                 </ul>
             </Layout>

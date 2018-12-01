@@ -14,11 +14,9 @@ app.prepare().then(() => {
 
     const server = express();
 
-    server.use(express.json());
 
     server.get('/post/:name', (req, res) => {
-        const routeParams = { ...req.params, ...req.query };
-        return app.render(req, res, '/post', routeParams);
+        return app.render(req, res, '/post', { ...req.params, ...req.query });
     });
 
     server.get('*', (req, res) => {
